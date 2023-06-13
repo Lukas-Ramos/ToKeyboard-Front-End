@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('./assets/styles/variables.css');
+@import url('./assets/styles/fonts.css');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Poppins);
+    
+}
+
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+html, body {
+    ::-webkit-scrollbar {
+        width: 14px;
+        background-color: #eeeeee;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--TerraCotta);
+        border-radius: 50px;
+        border: 3px solid #eeeeee;
+    }
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--Gunmetal);
+    overflow-x: hidden;
+}

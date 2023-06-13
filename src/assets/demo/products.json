@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+			"id": "1",
+			"code": "f230fh0g3",
+			"name": "KeyCaps Color Cream",
+			"description": "mecanical keyboard Cherry profile double shot",
+			"image": "https://ae01.alicdn.com/kf/H202aa4c7b45d4cddb443f9fa3598c4d6V/1-conjunto-gameboy-inf-ncia-cl-ssico-retro-jogo-chave-bon-para-mx-interruptor-teclado-mec.jpg_Q90.jpg_.webp",
+			"price": 65,
+			"category": "perifericos",
+			"quantity": 24,
+			"inventoryStatus": "INSTOCK",
+			"rating": 5
+		},
+		{
+			"id": "2",
+			"code": "nvklal433",
+			"name": "KeyCaps Cream + Gray",
+			"description": "mecanical keyboard Cherry profile double shot",
+			"image": "https://ae01.alicdn.com/kf/Hdcf40b5c363a495d9f5cc59a2e4cdac4I/Xda-perfil-pbt-120-teclas-keycaps-tintura-sublima-o-para-filco-cereja-ducky-ikbc-gmmk-pro.jpg_Q90.jpg_.webp",
+			"price": 72,
+			"category": "perifericos",
+			"quantity": 61,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "3",
+			"code": "zz21cz3c1",
+			"name": "KeyCaps Gray + Ocean Blue",
+			"description": "mecanical keyboard SA profile double shot",
+			"image": "https://ae01.alicdn.com/kf/S92c7de49b4c64d548013a73c4b0b39097/172-teclas-duplo-tiro-keycaps-sa-perfil-tema-de-pesca-keycap-para-feker-rk61-ik75-nj80.jpg_Q90.jpg_.webp",
+			"price": 79,
+			"category": "perifericos",
+			"quantity": 2,
+			"inventoryStatus": "LOWSTOCK",
+			"rating": 3
+		},
+		{
+			"id": "4",
+			"code": "zz21cz3c",
+			"name": "KeyCaps Swamp Green",
+			"description": "mecanical keyboard OEM profile double shot",
+			"image": "https://ae01.alicdn.com/kf/Se8fba39b32d94c3abf5309f4f9c827b9g/Conjunto-completo-de-teclas-para-teclado-mec-nico-dye-sub-p-vermelho-russo-original-altamente-sub.jpg_Q90.jpg_.webp",
+			"price": 79,
+			"category": "perifericos",
+			"quantity": 2,
+			"inventoryStatus": "LOWSTOCK",
+			"rating": 3
+		}
+		
+    ]
+}

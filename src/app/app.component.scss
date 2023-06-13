@@ -1,0 +1,155 @@
+ 
+.product-list-item { // Card list align 
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    padding-inline: 20px;
+    .img-container {
+        width: 200px;
+        height: 130px;
+        img {
+            padding: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .product-list-detail {
+        gap: 3px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .product-description {
+            font-size: 12px;
+        }
+        .product-category {
+            display: flex;
+            .product-category-icon {
+                margin-right: 10px;
+                font-size: 12;
+            }
+            .product-category-label {
+                font-style: italic;
+                font-size: 11px;
+            }
+        }
+        
+    }
+    .product-list-action {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        p-button {
+            white-space: nowrap;
+        }
+        .product-price {
+            
+            padding-inline: 6px;
+            font-weight: bold;
+            font-size: 16px;
+            color: var(--Gunmetal);
+            
+        }
+        .cart button {
+            height: 40px;
+            padding-inline: 10px;
+            white-space: nowrap;
+            background-color: var(--TerraCotta);
+            border: 0;
+            border-radius: 10px; 
+            cursor: pointer;
+            i, span {
+                font-size: 16px;
+                color: var(--White);
+            }
+            span {
+                margin-left: 10px;
+            }
+        }
+        .product-badge {
+            padding-inline: 6px;
+            font-size: 14px;
+            color: var(--Gunmetal);
+            background-color: var(--Opal);
+            border-radius: 4px;
+        }
+
+    }
+}
+
+.product-grid-item { // card grid 
+    margin: 20px;
+    padding-inline: 20px;
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    border-radius: 15px;
+    .product-grid-item-top { // header
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 20px;
+        & > div {  // categoria 
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .product-badge { // status
+            padding-inline: 6px;
+            font-size: 14px;
+            color: var(--Gunmetal);
+            background-color: var(--Opal);
+            border-radius: 4px;
+        }
+    }
+    .product-grid-item-content { // conteudo
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+
+        img { // image 
+            width: 70%;
+            height: 70%;
+            border-radius: 10px;
+        }
+        .product-name { // tittle
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .product-description { 
+            font-size: 14px;
+        }
+
+    }
+    .product-grid-item-bottom { // footer
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 20px;
+        .product-price { // price 
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--TerraCotta);
+            border: 0;
+            border-radius: 10px; 
+            cursor: pointer;
+            i {
+                font-size: 16px;
+                color: var(--White);
+            }
+        }
+    }
+}
