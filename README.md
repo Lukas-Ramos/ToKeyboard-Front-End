@@ -18,7 +18,7 @@
 - CLONE: primeiramente clone o projeto na pasta desejada com o comando GIT CLONE  e apos isso acesse o diretorio do projeto com o comando CD no terminal
 - DEPENDÊNCIAS: apos isso instale as dependências com o NPM INSTALL
 - START: comando NG SERVE ou NPM START 
-## Como usra ? 
+## Como usar ? 
 Para acessar a aplicação, apos seguir os passos anteriores, no seu terminal terá uma URL parecida com essa http://localhost:4200/  que ao acessar voce ira cair direto no projeto e poder navegar a testar a vontade 
 
 ## Muito Obrigado!
